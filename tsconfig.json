@@ -15,7 +15,8 @@
         "jsx": "preserve",
         "noImplicitAny": true,
         "strictNullChecks": true,
-        "importsNotUsedAsValues": "error"
+        "importsNotUsedAsValues": "error",
+        "baseUrl": "."
     },
     "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
