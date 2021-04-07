@@ -1,19 +1,21 @@
 import type { NextSeoProps } from 'next-seo';
 
-const metadata: NextSeoProps = {
+const host = process.env.NEXT_PUBLIC_HOST;
+
+const seo: NextSeoProps = {
     title: 'Ruben Amorim | Software Engineer',
     description:
         'Software engineer passionate about building things for the web!',
-    canonical: 'https://rubenamorim.dev/',
+    canonical: host,
     openGraph: {
         title: 'Ruben Amorim | Software Engineer',
         description:
             'Software engineer passionate about building things for the web!',
-        url: 'https://rubenamorim.dev/',
+        url: host,
         type: 'website',
         images: [
             {
-                url: 'https://rubenamorim.dev/avatar-1.png',
+                url: `${host}avatar-1.png`,
                 width: 421,
                 height: 421,
                 alt: "Ruben's Avatar",
@@ -65,4 +67,4 @@ const metadata: NextSeoProps = {
     ],
 };
 
-export default metadata;
+export default seo;
