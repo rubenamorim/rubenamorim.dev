@@ -6,9 +6,14 @@ module.exports = {
     darkMode: 'class',
     theme: {
         extend: {},
+        colors: {
+            blue: '#21243d',
+        },
     },
     variants: {
-        extend: {},
+        extend: {
+            margin: ['last'],
+        },
     },
     plugins: [],
 };
