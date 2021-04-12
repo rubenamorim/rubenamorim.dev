@@ -19,7 +19,6 @@ module.exports = {
         'plugin:eslint-comments/recommended',
         'plugin:jest/recommended',
         'plugin:jest/style',
-        'plugin:testing-library/recommended',
         'plugin:testing-library/react',
         'plugin:jest-dom/recommended',
         // Prettier must be the last plugin
