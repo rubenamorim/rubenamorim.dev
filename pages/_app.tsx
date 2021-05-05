@@ -2,7 +2,6 @@ import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
 import type { AppProps } from 'next/app';
 
-import Header from 'components/header/Header';
 import Footer from 'components/footer/Footer';
 
 import seo from 'data/seo';
@@ -22,7 +21,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                     })}
                 ></script>
             </Head>
-            <Header />
             <Component {...pageProps} />
             <Footer />
         </>
