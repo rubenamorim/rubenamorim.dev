@@ -1,4 +1,4 @@
 module.exports = {
     '*.{json,md}': ['prettier-eslint --write'],
-    '*.{tsx,ts,js}': ['eslint'],
+    '*.{tsx,ts,js}': ['eslint', 'stylelint'],
 };
