@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome should render correctly 1`] = `
+<div>
+  <div>
+    <h1
+      class="text-center md:text-left"
+    >
+      Hey
+       
+      <span
+        aria-label="Hello"
+        class="inline-block origin-bottom-right animate-wave md:animate-none md:hover:animate-wave md:focus:animate-wave"
+        role="img"
+      >
+        👋🏻
+      </span>
+       
+      I’m Ruben,
+      <br />
+      Software Engineer
+    </h1>
+    <p
+      class="text-justify mt-12"
+    >
+      From
+       
+      <a
+        class="hover:text-porto focus:text-porto transition-colors"
+        href="https://visitporto.travel/"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+      >
+        Porto, Portugal
+      </a>
+       
+      to the world, I’m passionate about building things for the web. I love my profession, which I always wanted to be since I was a child and as a child I constantly try to learn new things and improve myself every day. Currently, I’m working for
+       
+      <a
+        class="hover:text-yellow focus:text-yellow transition-colors"
+        href="https://mindera.com/"
+        rel="nofollow noopener noreferrer"
+        target="_blank"
+      >
+        Mindera
+         
+        <span
+          aria-label="Mindera's yellow heart"
+          role="img"
+        >
+          💛
+        </span>
+      </a>
+    </p>
+  </div>
+</div>
+`;

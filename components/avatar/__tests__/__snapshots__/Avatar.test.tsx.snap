@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render correctly 1`] = `
+<div>
+  <img
+    alt="Ruben's avatar"
+    class="filter drop-shadow-2xl select-none drag-none"
+    height="421"
+    src="/avatar.png"
+    width="421"
+  />
+</div>
+`;

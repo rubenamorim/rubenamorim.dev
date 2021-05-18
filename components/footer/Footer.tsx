@@ -1,4 +1,5 @@
 import { Email, LinkedIn, Github, Twitter } from 'components/icons';
+import ExternalLink from 'components/external-link/ExternalLink';
 
 const LINKS = [
     {
@@ -38,15 +39,14 @@ const Footer: React.FC = () => {
                 <ul className="flex flex-row text-4xl text-blue md:text-5xl">
                     {LINKS.map(({ id, label, url, title, icon: Icon }) => (
                         <li key={id} className="mr-14 last:mr-0">
-                            <a
+                            <ExternalLink
                                 href={url}
                                 aria-label={label}
                                 title={title}
-                                target="_blank"
-                                rel="nofollow noopener noreferrer"
+                                className="block transform transition-transform hover:scale-110 focus:scale-110"
                             >
                                 <Icon />
-                            </a>
+                            </ExternalLink>
                         </li>
                     ))}
                 </ul>

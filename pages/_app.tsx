@@ -2,6 +2,9 @@ import Head from 'next/head';
 import { DefaultSeo } from 'next-seo';
 import type { AppProps } from 'next/app';
 
+import { HydrationRenderProvider } from 'hooks/useHydrationRender';
+import { ViewportProvider } from 'hooks/useViewport';
+
 import Footer from 'components/footer/Footer';
 
 import seo from 'data/seo';
@@ -21,8 +24,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                     })}
                 ></script>
             </Head>
-            <Component {...pageProps} />
-            <Footer />
+            <HydrationRenderProvider>
+                <ViewportProvider>
+                    <Component {...pageProps} />
+                    <Footer />
+                </ViewportProvider>
+            </HydrationRenderProvider>
         </>
     );
 }

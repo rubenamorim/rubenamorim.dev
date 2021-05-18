@@ -8,6 +8,7 @@
     "editor.formatOnSave": true,
     "tailwindCSS.validate": true,
     "tailwindCSS.rootFontSize": 10,
+    "stylelint.enable": true,
     "css.validate": false,
     "less.validate": false,
     "scss.validate": false,
