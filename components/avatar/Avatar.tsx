@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import cx from 'classnames';
 
-import { useHydrationRender } from 'hooks/useHydrationRender';
 import { useViewport } from 'hooks/useViewport';
 
 interface PropTypes {
@@ -13,13 +12,10 @@ const ROTATION_COEFFICIENT = 25;
 const Avatar: React.FC<PropTypes> = ({ className }) => {
     const ref = useRef<HTMLImageElement>(null);
 
-    const isHydrationRender = useHydrationRender();
     const { lteSmall } = useViewport();
 
-    const hasTouchAnimation = isHydrationRender || lteSmall;
-
     useEffect(() => {
-        if (hasTouchAnimation) {
+        if (lteSmall) {
             return;
         }
 
@@ -53,17 +49,13 @@ const Avatar: React.FC<PropTypes> = ({ className }) => {
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
         };
-    }, [hasTouchAnimation]);
+    }, [lteSmall]);
 
     return (
         <img
             ref={ref}
             className={cx(
-                'filter drop-shadow-2xl select-none drag-none',
-                {
-                    'transform active:scale-110 transition-transform':
-                        hasTouchAnimation,
-                },
+                'filter drop-shadow-xl md:drop-shadow-xl transform transition-transform md:scale-110 active:scale-110 md:active:scale-100 select-none drag-none',
                 className
             )}
             src="/avatar.png"
