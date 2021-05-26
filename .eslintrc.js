@@ -17,10 +17,6 @@ module.exports = {
         'plugin:import/warnings',
         'plugin:import/typescript',
         'plugin:eslint-comments/recommended',
-        'plugin:jest/recommended',
-        'plugin:jest/style',
-        'plugin:testing-library/react',
-        'plugin:jest-dom/recommended',
         // Prettier must be the last plugin
         'plugin:prettier/recommended',
     ],
@@ -44,6 +40,15 @@ module.exports = {
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
             },
+        },
+        {
+            files: ['*.test.{ts,tsx,js}'],
+            extends: [
+                'plugin:jest/recommended',
+                'plugin:jest/style',
+                'plugin:testing-library/react',
+                'plugin:jest-dom/recommended',
+            ],
         },
     ],
     settings: {

@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@custom-media --gte-medium-viewport (min-width: 1024px);
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -30,4 +38,38 @@ body,
 
 main {
     flex-grow: 1;
+}
+
+@layer base {
+    h1 {
+        @apply text-5xl text-blue font-extrabold;
+    }
+
+    p {
+        @apply text-2xl text-blue font-medium;
+    }
+
+    a {
+        @apply text-blue font-semibold;
+    }
+
+    @media (--gte-medium-viewport) {
+        h1 {
+            @apply text-7xl;
+        }
+
+        p {
+            @apply text-3xl font-normal;
+        }
+
+        a {
+            @apply font-medium;
+        }
+    }
+}
+
+@layer utilities {
+    .drag-none {
+        -webkit-user-drag: none;
+    }
 }
