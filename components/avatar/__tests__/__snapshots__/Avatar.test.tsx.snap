@@ -2,12 +2,22 @@
 
 exports[`Avatar should render correctly 1`] = `
 <div>
-  <img
-    alt="Ruben's avatar"
-    class="avatar md:scale-110 md:transition-none md:active:scale-100"
-    height="421"
-    src="/avatar.png"
-    width="421"
-  />
+  <picture>
+    <source
+      srcset="/media/avatar.webp"
+      type="image/webp"
+    />
+    <source
+      srcset="/media/avatar.png"
+      type="image/png"
+    />
+    <img
+      alt="Ruben's avatar"
+      class="avatar md:scale-110 md:transition-none md:active:scale-100"
+      height="421"
+      src="/media/avatar.png"
+      width="421"
+    />
+  </picture>
 </div>
 `;
