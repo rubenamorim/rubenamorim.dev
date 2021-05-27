@@ -2,43 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    min-width: 32rem;
-    overflow-x: hidden;
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body,
-#__next {
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-}
-
-#__next {
-    min-height: 100%;
-}
-
-main {
-    flex-grow: 1;
-}
-
 @layer utilities {
     .drag-none {
         -webkit-user-drag: none;
@@ -69,9 +32,51 @@ main {
     .avatar {
         @apply filter drop-shadow-xl md:drop-shadow-2xl transform transition-transform active:scale-110 select-none drag-none;
     }
+
+    .soon {
+        @apply after:content-after after:absolute after:top-0 after:left-0 after:flex after:justify-center after:items-center after:text-red after:bg-white after:w-full after:h-full after:transition-opacity after:opacity-0 hover:after:opacity-100 focus:after:opacity-100;
+    }
 }
 
 @layer base {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+        min-width: 32rem;
+        overflow-x: hidden;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    #__next {
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+    }
+
+    #__next {
+        min-height: 100%;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
     h1 {
         @apply h1;
     }

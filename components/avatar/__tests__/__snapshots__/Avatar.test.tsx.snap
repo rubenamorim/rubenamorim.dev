@@ -2,7 +2,9 @@
 
 exports[`Avatar should render correctly 1`] = `
 <div>
-  <picture>
+  <picture
+    class="avatar md:scale-110 md:transition-none md:active:scale-100"
+  >
     <source
       srcset="/media/avatar.webp"
       type="image/webp"
@@ -13,7 +15,6 @@ exports[`Avatar should render correctly 1`] = `
     />
     <img
       alt="Ruben's avatar"
-      class="avatar md:scale-110 md:transition-none md:active:scale-100"
       height="421"
       src="/media/avatar.png"
       width="421"

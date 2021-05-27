@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import cx from 'classnames';
 
 import { useViewport } from 'hooks/useViewport';
 
@@ -55,12 +56,16 @@ const Avatar: React.FC<PropTypes> = ({ className }) => {
     }, [lteSmall]);
 
     return (
-        <picture className={className}>
+        <picture
+            ref={ref}
+            className={cx(
+                'avatar md:scale-110 md:transition-none md:active:scale-100',
+                className
+            )}
+        >
             <source type="image/webp" srcSet="/media/avatar.webp" />
             <source type="image/png" srcSet="/media/avatar.png" />
             <img
-                ref={ref}
-                className="avatar md:scale-110 md:transition-none md:active:scale-100"
                 src="/media/avatar.png"
                 alt="Ruben's avatar"
                 width="421"
