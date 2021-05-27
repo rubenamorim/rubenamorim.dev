@@ -4,7 +4,7 @@ exports[`Avatar should render correctly 1`] = `
 <div>
   <img
     alt="Ruben's avatar"
-    class="filter drop-shadow-xl md:drop-shadow-xl transform transition-transform md:scale-110 active:scale-110 md:active:scale-100 select-none drag-none"
+    class="avatar md:scale-110 md:transition-none md:active:scale-100"
     height="421"
     src="/avatar.png"
     width="421"

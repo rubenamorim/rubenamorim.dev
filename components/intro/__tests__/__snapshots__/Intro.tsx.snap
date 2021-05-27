@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Welcome should render correctly 1`] = `
+exports[`Intro should render correctly 1`] = `
 <div>
   <div>
     <h1

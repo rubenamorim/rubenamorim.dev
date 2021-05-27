@@ -36,14 +36,14 @@ const Footer: React.FC = () => {
     return (
         <footer className="h-28 flex justify-center items-center md:h-40">
             <nav aria-label="Social navigation">
-                <ul className="flex flex-row text-4xl text-blue md:text-5xl">
+                <ul className="flex flex-row">
                     {LINKS.map(({ id, label, url, title, icon: Icon }) => (
                         <li key={id} className="mr-14 last:mr-0">
                             <ExternalLink
                                 href={url}
                                 aria-label={label}
                                 title={title}
-                                className="block transform transition-transform hover:scale-110 focus:scale-110"
+                                className="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
                             >
                                 <Icon />
                             </ExternalLink>

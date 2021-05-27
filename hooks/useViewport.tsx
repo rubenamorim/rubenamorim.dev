@@ -15,8 +15,8 @@ const BREAKPOINTS = {
     large: '(min-width: 1440px)',
     gteSmall: '(min-width: 768px)',
     gteMedium: '(min-width: 1024px)',
-    lteSmall: '(max-width: 767px)',
-    lteMedium: '(max-width: 1023px)',
+    lteSmall: '(max-width: 1023px)',
+    lteMedium: '(max-width: 1439px)',
 };
 
 type ViewportContextTypes = Record<keyof typeof BREAKPOINTS, boolean>;

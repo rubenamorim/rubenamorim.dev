@@ -23,6 +23,7 @@ module.exports = {
             },
         },
         colors: {
+            white: '#fff',
             blue: '#21243d',
             porto: '#0f2f7f',
             yellow: '#ffd100',

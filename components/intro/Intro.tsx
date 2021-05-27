@@ -4,7 +4,7 @@ interface PropTypes {
     className?: string;
 }
 
-const Welcome: React.FC<PropTypes> = ({ className }) => {
+const Intro: React.FC<PropTypes> = ({ className }) => {
     return (
         <div className={className}>
             <h1 className="text-center md:text-left">
@@ -46,4 +46,4 @@ const Welcome: React.FC<PropTypes> = ({ className }) => {
     );
 };
 
-export default Welcome;
+export default Intro;
