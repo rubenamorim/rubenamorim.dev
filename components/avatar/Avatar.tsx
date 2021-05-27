@@ -16,6 +16,10 @@ const Avatar: React.FC<PropTypes> = ({ className }) => {
 
     useEffect(() => {
         if (lteSmall) {
+            if (ref.current) {
+                ref.current.style.transform = '';
+            }
+
             return;
         }
 
@@ -55,7 +59,7 @@ const Avatar: React.FC<PropTypes> = ({ className }) => {
         <img
             ref={ref}
             className={cx(
-                'filter drop-shadow-xl md:drop-shadow-xl transform transition-transform md:scale-110 active:scale-110 md:active:scale-100 select-none drag-none',
+                'avatar md:scale-110 md:transition-none md:active:scale-100',
                 className
             )}
             src="/avatar.png"

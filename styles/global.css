@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@custom-media --gte-medium-viewport (min-width: 1024px);
-
 *,
 *::before,
 *::after {
@@ -41,36 +39,52 @@ main {
     flex-grow: 1;
 }
 
-@layer base {
-    h1 {
-        @apply text-5xl text-blue font-extrabold;
-    }
-
-    p {
-        @apply text-2xl text-blue font-medium;
-    }
-
-    a {
-        @apply text-blue font-semibold;
-    }
-
-    @media (--gte-medium-viewport) {
-        h1 {
-            @apply text-7xl;
-        }
-
-        p {
-            @apply text-3xl font-normal;
-        }
-
-        a {
-            @apply font-medium;
-        }
-    }
-}
-
 @layer utilities {
     .drag-none {
         -webkit-user-drag: none;
+    }
+}
+
+@layer components {
+    .h1 {
+        @apply text-5xl md:text-7xl text-blue font-extrabold;
+    }
+
+    .h2 {
+        @apply text-4xl md:text-6xl text-blue font-extrabold;
+    }
+
+    .link {
+        @apply text-2xl text-blue font-bold md:text-3xl md:font-semibold;
+    }
+
+    .button {
+        @apply p-4 md:p-5 text-2xl md:text-3xl font-semibold md:font-medium text-white bg-blue rounded-xl transform transition-transform hover:scale-105;
+    }
+
+    .text {
+        @apply text-2xl md:text-3xl text-blue font-medium md:font-normal;
+    }
+
+    .avatar {
+        @apply filter drop-shadow-xl md:drop-shadow-2xl transform transition-transform active:scale-110 select-none drag-none;
+    }
+}
+
+@layer base {
+    h1 {
+        @apply h1;
+    }
+
+    p {
+        @apply text;
+    }
+
+    a {
+        @apply link;
+    }
+
+    button {
+        @apply button;
     }
 }

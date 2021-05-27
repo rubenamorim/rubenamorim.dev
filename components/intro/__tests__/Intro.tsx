@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 
-import Welcome from '../Welcome';
+import Intro from '../Intro';
 
-describe('Welcome', () => {
+describe('Intro', () => {
     it('should render correctly', () => {
-        const { container } = render(<Welcome />);
+        const { container } = render(<Intro />);
 
         expect(screen.getByText(/Hey/)).toBeInTheDocument();
         expect(screen.getByText(/I’m Ruben,/)).toBeInTheDocument();
