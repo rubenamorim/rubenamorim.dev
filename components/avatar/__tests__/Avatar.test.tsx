@@ -29,8 +29,7 @@ describe('Avatar', () => {
         fireEvent.mouseMove(container, { clientX: 100, clientY: 100 });
 
         await waitFor(() => {
-            // eslint-disable-next-line testing-library/no-node-access
-            expect(container.firstChild).toHaveStyle(
+            expect(screen.getByAltText("Ruben's avatar")).toHaveStyle(
                 'transform: perspective(250px) scale(1.1) rotateX(9.244791666666668deg) rotateY(-10.05859375deg);'
             );
         });

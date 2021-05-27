@@ -17,13 +17,17 @@ const Error: React.FC<PropTypes> = ({
 }) => {
     return (
         <div className={cx('flex flex-col items-center', className)}>
-            <img
-                className="w-1/2 md:w-3/4 max-w-sm md:max-w-lg avatar"
-                src="/avatar-error.png"
-                alt="Ruben's avatar"
-                width="421"
-                height="421"
-            />
+            <picture>
+                <source type="image/webp" srcSet="/media/avatar-error.webp" />
+                <source type="image/png" srcSet="/media/avatar-error.png" />
+                <img
+                    className="w-1/2 md:w-3/4 max-w-sm md:max-w-lg avatar"
+                    src="/media/avatar-error.png"
+                    alt="Ruben's avatar"
+                    width="421"
+                    height="421"
+                />
+            </picture>
             <h1 className="h2 text-center mt-12">{title}</h1>
             {onClick && !href && (
                 <button className="mt-12" onClick={onClick}>
