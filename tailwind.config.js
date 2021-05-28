@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
     mode: 'jit',
     purge: [
@@ -27,7 +29,37 @@ module.exports = {
             blue: '#21243d',
             porto: '#0f2f7f',
             yellow: '#ffd100',
+            red: '#f00',
+            transparent: 'transparent',
         },
     },
-    plugins: [],
+    plugins: [
+        plugin(({ addVariant, e }) => {
+            addVariant('before', ({ modifySelectors, separator }) => {
+                modifySelectors(({ className }) => {
+                    return `.${e(`before${separator}${className}`)}::before`;
+                });
+            });
+            addVariant('after', ({ modifySelectors, separator }) => {
+                modifySelectors(({ className }) => {
+                    return `.${e(`after${separator}${className}`)}::after`;
+                });
+            });
+        }),
+        plugin(({ addUtilities }) => {
+            const contentUtilities = {
+                '.content': {
+                    content: 'attr(data-content)',
+                },
+                '.content-before': {
+                    content: 'attr(data-before)',
+                },
+                '.content-after': {
+                    content: 'attr(data-after)',
+                },
+            };
+
+            addUtilities(contentUtilities, ['before', 'after']);
+        }),
+    ],
 };

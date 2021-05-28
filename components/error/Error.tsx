@@ -16,12 +16,11 @@ const Error: React.FC<PropTypes> = ({
     copy = 'Go to a safe place',
 }) => {
     return (
-        <div className={cx('flex flex-col items-center', className)}>
-            <picture>
+        <div className={cx('flex flex-col items-center w-full', className)}>
+            <picture className="w-1/2 md:w-3/4 max-w-sm md:max-w-lg avatar">
                 <source type="image/webp" srcSet="/media/avatar-error.webp" />
                 <source type="image/png" srcSet="/media/avatar-error.png" />
                 <img
-                    className="w-1/2 md:w-3/4 max-w-sm md:max-w-lg avatar"
                     src="/media/avatar-error.png"
                     alt="Ruben's avatar"
                     width="421"
