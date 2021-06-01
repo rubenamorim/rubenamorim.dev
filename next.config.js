@@ -2,6 +2,7 @@ const withPlugins = require('next-compose-plugins');
 const bundleAnalyzer = require('@next/bundle-analyzer');
 
 const config = {
+    target: 'serverless',
     future: {
         webpack5: true,
     },
