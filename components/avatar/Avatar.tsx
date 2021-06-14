@@ -63,6 +63,7 @@ const Avatar: React.FC<PropTypes> = ({ className }) => {
                 className
             )}
         >
+            <source type="image/avif" srcSet="/media/avatar.avif" />
             <source type="image/webp" srcSet="/media/avatar.webp" />
             <source type="image/png" srcSet="/media/avatar.png" />
             <img
