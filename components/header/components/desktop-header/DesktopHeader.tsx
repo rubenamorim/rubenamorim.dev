@@ -7,13 +7,13 @@ interface PropTypes {
 const LINKS = [
     {
         id: 'about',
-        href: '',
+        href: '/',
         text: 'About',
         'aria-label': 'Go to the about page soon',
     },
     {
         id: 'portfolio',
-        href: '',
+        href: '/',
         text: 'Portfolio',
         'aria-label': 'Go to the portfolio page soon',
     },

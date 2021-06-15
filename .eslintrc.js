@@ -9,6 +9,8 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     extends: [
         'eslint:recommended',
+        'next',
+        'next/core-web-vitals',
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
@@ -27,6 +29,7 @@ module.exports = {
             'error',
             { 'newlines-between': 'always-and-inside-groups' },
         ],
+        '@next/next/no-img-element': 'off',
     },
     overrides: [
         {

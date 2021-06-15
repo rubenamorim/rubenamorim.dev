@@ -3,9 +3,7 @@ const bundleAnalyzer = require('@next/bundle-analyzer');
 
 const config = {
     target: 'serverless',
-    future: {
-        webpack5: true,
-    },
+    reactStrictMode: true,
 };
 
 module.exports = withPlugins(
