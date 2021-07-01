@@ -58,7 +58,7 @@
         "eslint-plugin-react-hooks": "^4.2.0",
         "eslint-plugin-testing-library": "^4.6.0",
         "husky": "^7.0.0",
-        "jest": "^27.0.4",
+        "jest": "^27.0.6",
         "lint-staged": "^11.0.0",
         "match-media-mock": "^0.1.1",
         "netlify-plugin-cache-nextjs": "^1.6.1",
