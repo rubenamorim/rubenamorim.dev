@@ -1649,25 +1649,25 @@
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
-"@next/env@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.0.tgz#bdd306a45e88ba3e4e7a36aa91806f6486bb61d0"
-  integrity sha512-VKpmDvTYeCpEQjREg3J4pCmVs/QjEzoLmkM8shGFK6e9AmFd0G9QXOL8HGA8qKhy/XmNb7dHeMqrcMiBua4OgA==
+"@next/env@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.1.tgz#6dc96ac76f1663ab747340e907e8933f190cc8fd"
+  integrity sha512-yZfKh2U6R9tEYyNUrs2V3SBvCMufkJ07xMH5uWy8wqcl5gAXoEw6A/1LDqwX3j7pUutF9d1ZxpdGDA3Uag+aQQ==
 
 "@next/eslint-plugin-next@11.0.0":
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.0.0.tgz#e6fb93a00bdaba371904f2b2698b184e6278d369"
   integrity sha512-fPZ0904yY1box6bRpR9rJqIkNxJdvzzxH7doXS+cdjyBAdptMR7wj3mcx1hEikBHzWduU8BOXBvRg2hWc09YDQ==
 
-"@next/polyfill-module@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-11.0.0.tgz#cb2f46b323bbe7f8a337ccd80fb82314d4039403"
-  integrity sha512-gydtFzRqsT549U8+sY8382I/f4HFcelD8gdUGnAofQJa/jEU1jkxmjCHC8tmEiyeMLidl7iDZgchfSCpmMzzUg==
+"@next/polyfill-module@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/polyfill-module/-/polyfill-module-11.0.1.tgz#ca2a110c1c44672cbcff6c2b983f0c0549d87291"
+  integrity sha512-Cjs7rrKCg4CF4Jhri8PCKlBXhszTfOQNl9AjzdNy4K5jXFyxyoSzuX2rK4IuoyE+yGp5A3XJCBEmOQ4xbUp9Mg==
 
-"@next/react-dev-overlay@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-11.0.0.tgz#6befb4d00d952551db1b3909023074eb5778ac5d"
-  integrity sha512-q+Wp+eStEMThe77zxdeJ/nbuODkHR6P+/dfUqYXZSqbLf6x5c5xwLBauwwVbkCYFZpAlDuL8Jk8QSAH1OsqC2w==
+"@next/react-dev-overlay@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/react-dev-overlay/-/react-dev-overlay-11.0.1.tgz#3c481e83347255abd466dcf7e59ac8a79a0d7fd6"
+  integrity sha512-lvUjMVpLsgzADs9Q8wtC5LNqvfdN+M0BDMSrqr04EDWAyyX0vURHC9hkvLbyEYWyh+WW32pwjKBXdkMnJhoqMg==
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -1681,10 +1681,10 @@
     stacktrace-parser "0.1.10"
     strip-ansi "6.0.0"
 
-"@next/react-refresh-utils@11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-11.0.0.tgz#cb671723c50b904eaa44b4b45c0845476ecd8825"
-  integrity sha512-hi5eY+KBn4QGtUv7VL2OptdM33fI2hxhd7+omOFmAK+S0hDWhg1uqHqqGJk0W1IfqlWEzzL10WvTJDPRAtDugQ==
+"@next/react-refresh-utils@11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-11.0.1.tgz#a7509f22b6f70c13101a26573afd295295f1c020"
+  integrity sha512-K347DM6Z7gBSE+TfUaTTceWvbj0B6iNAsFZXbFZOlfg3uyz2sbKpzPYYFocCc27yjLaS8OfR8DEdS2mZXi8Saw==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -1968,15 +1968,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
   integrity sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==
 
-"@types/node@*":
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.6.1.tgz#32d43390d5c62c5b6ec486a9bc9c59544de39a08"
-  integrity sha512-7EIraBEyRHEe7CH+Fm1XvgqU6uwZN8Q7jppJGcqjROMT29qhAuuOxYB1uEY5UMYQKEmA5D+5tBnhdaPXSsLONA==
-
-"@types/node@^15.12.2":
-  version "15.12.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.2.tgz#1f2b42c4be7156ff4a6f914b2fb03d05fa84e38d"
-  integrity sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==
+"@types/node@*", "@types/node@^15.12.5":
+  version "15.12.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.5.tgz#9a78318a45d75c9523d2396131bd3cca54b2d185"
+  integrity sha512-se3yX7UHv5Bscf8f1ERKvQOD6sTyycH3hdaoozvaLxgUiY5lIGEeH37AD0G0Qi9kPqihPn0HOfd2yaIEN9VwEg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -4479,10 +4474,10 @@ eslint@^5.0.0:
     table "^5.2.3"
     text-table "^0.2.0"
 
-eslint@^7.28.0:
-  version "7.28.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.28.0.tgz#435aa17a0b82c13bb2be9d51408b617e49c1e820"
-  integrity sha512-UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==
+eslint@^7.29.0:
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.29.0.tgz#ee2a7648f2e729485e4d0bd6383ec1deabc8b3c0"
+  integrity sha512-82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==
   dependencies:
     "@babel/code-frame" "7.12.11"
     "@eslint/eslintrc" "^0.4.2"
@@ -5210,14 +5205,7 @@ globals@^11.1.0, globals@^11.7.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
-globals@^13.6.0:
-  version "13.6.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.6.0.tgz#d77138e53738567bb96a3916ff6f6b487af20ef7"
-  integrity sha512-YFKCX0SiPg7l5oKYCJ2zZGxcXprVXHcSnVuvzrT3oSENQonVLqM5pf9fN5dLGZGyCjhw8TN8Btwe/jKnZ0pjvQ==
-  dependencies:
-    type-fest "^0.20.2"
-
-globals@^13.9.0:
+globals@^13.6.0, globals@^13.9.0:
   version "13.9.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-13.9.0.tgz#4bf2bf635b334a173fb1daf7c5e6b218ecdc06cb"
   integrity sha512-74/FduwI/JaIrr1H8e71UbDE+5x7pIPs1C2rrwC52SszOo043CsWOZEMW7o2Y58xwm9b+0RBKDxY5n2sUpEFxA==
@@ -7552,17 +7540,17 @@ next-seo@^4.26.0:
   resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.26.0.tgz#4218cfae5651fdc2e330dcdf1cc1b34ce199d41c"
   integrity sha512-5TqywQ3XAwqdmEU1AyNZjR7WdDKFTkDD8aBtgQelPvzBUEy8i0mTjtiw+09jhiHFNik6FqS8uPKCaYcY6jRgSQ==
 
-next@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-11.0.0.tgz#866b833f192f5a94ddb3267d5cc0f4b0ce405ac7"
-  integrity sha512-1OA0ccCTwVtdLats/1v7ReiBVx+Akya0UVhHo9IBr8ZkpDI3/SGNcaruJBp5agy8ROF97VDKkZamoUXxRB9NUA==
+next@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/next/-/next-11.0.1.tgz#b8e3914d153aaf7143cb98c09bcd3c8230eeb17a"
+  integrity sha512-yR7be7asNbvpVNpi6xxEg28wZ7Gqmj1nOt0sABH9qORmF3+pms2KZ7Cng33oK5nqPIzEEFJD0pp2PCe3/ueMIg==
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.2"
-    "@next/env" "11.0.0"
-    "@next/polyfill-module" "11.0.0"
-    "@next/react-dev-overlay" "11.0.0"
-    "@next/react-refresh-utils" "11.0.0"
+    "@next/env" "11.0.1"
+    "@next/polyfill-module" "11.0.1"
+    "@next/react-dev-overlay" "11.0.1"
+    "@next/react-refresh-utils" "11.0.1"
     assert "2.0.0"
     ast-types "0.13.2"
     browserify-zlib "0.2.0"
@@ -7947,10 +7935,10 @@ onetime@^5.1.0, onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/open/-/open-8.2.0.tgz#d6a4788b00009a9d60df471ecb89842a15fdcfc1"
-  integrity sha512-O8uInONB4asyY3qUcEytpgwxQG3O0fJ/hlssoUHsBboOIRVZzT6Wq+Rwj5nffbeUhOdMjpXeISpDDzHCMRDuOQ==
+open@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/open/-/open-8.2.1.tgz#82de42da0ccbf429bc12d099dad2e0975e14e8af"
+  integrity sha512-rXILpcQlkF/QuFez2BJDf3GsqpjGKbkUUToAIGo9A0Q6ZkoSGogZJulrUdwRkrAsoQvoZsrjCYt8+zblOk7JQQ==
   dependencies:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
@@ -9153,7 +9141,7 @@ react-error-boundary@^3.1.0:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-react-is@17.0.2:
+react-is@17.0.2, react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
@@ -9162,11 +9150,6 @@ react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-is@^17.0.1:
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
-  integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
 react-native-get-random-values@^1.4.0:
   version "1.7.0"
