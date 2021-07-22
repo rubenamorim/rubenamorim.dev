@@ -6,10 +6,6 @@ exports[`Avatar should render correctly 1`] = `
     class="avatar md:scale-110 md:transition-none md:active:scale-100"
   >
     <source
-      srcset="/media/avatar.avif"
-      type="image/avif"
-    />
-    <source
       srcset="/media/avatar.webp"
       type="image/webp"
     />
