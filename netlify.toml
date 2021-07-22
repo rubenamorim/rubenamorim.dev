@@ -7,3 +7,10 @@ package = "@netlify/plugin-nextjs"
 
 [[plugins]]
 package = "netlify-plugin-cache-nextjs"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Content-Security-Policy = "default-src 'none'; img-src 'self'; style-src-elem 'self'; manifest-src 'self'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src cloudflareinsights.com;"
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
