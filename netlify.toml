@@ -11,6 +11,6 @@ package = "netlify-plugin-cache-nextjs"
 [[headers]]
 for = "/*"
 [headers.values]
-Content-Security-Policy = "default-src 'none'; img-src 'self'; style-src 'self'; style-src-elem 'self'; manifest-src 'self'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com; prefetch-src 'self';"
+Content-Security-Policy = "default-src 'none'; img-src 'self'; style-src 'self'; style-src-elem 'self' 'sha256-TyNUDnhSZIj6eZZqS6qqchxBN4+zTRUU+TkPeIxxT1I='; manifest-src 'self'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' cloudflareinsights.com; prefetch-src 'self';"
 X-Frame-Options = "DENY"
 X-XSS-Protection = "1; mode=block"
