@@ -1,8 +1,8 @@
 const withPlugins = require('next-compose-plugins');
 const bundleAnalyzer = require('@next/bundle-analyzer');
 
+/** @type {import('next').NextConfig} */
 const config = {
-    target: 'serverless',
     reactStrictMode: true,
 };
 
