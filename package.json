@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "^14.1.0",
-        "@commitlint/config-conventional": "^14.1.0",
+        "@commitlint/config-conventional": "^15.0.0",
         "@netlify/plugin-nextjs": "^3.9.2",
         "@testing-library/dom": "^8.10.1",
         "@testing-library/jest-dom": "^5.15.0",
