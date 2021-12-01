@@ -66,7 +66,7 @@
         "open": "^8.4.0",
         "postcss": "^8.4.4",
         "postcss-preset-env": "^6.7.0",
-        "prettier": "^2.4.1",
+        "prettier": "^2.5.0",
         "prettier-eslint-cli": "^5.0.1",
         "stylelint": "^14.0.1",
         "stylelint-config-rational-order": "^0.1.2",
