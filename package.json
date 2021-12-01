@@ -33,7 +33,7 @@
         "@commitlint/config-conventional": "^15.0.0",
         "@netlify/plugin-nextjs": "^3.9.2",
         "@testing-library/dom": "^8.11.1",
-        "@testing-library/jest-dom": "^5.15.0",
+        "@testing-library/jest-dom": "^5.15.1",
         "@testing-library/react": "^12.1.2",
         "@testing-library/react-hooks": "^7.0.2",
         "@testing-library/user-event": "^13.5.0",
