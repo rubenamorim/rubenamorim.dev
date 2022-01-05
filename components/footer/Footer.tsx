@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                                 href={url}
                                 aria-label={label}
                                 title={title}
-                                className="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
+                                className="block text-4xl md:text-5xl transition-transform hover:scale-110 focus:scale-110"
                             >
                                 <Icon />
                             </ExternalLink>

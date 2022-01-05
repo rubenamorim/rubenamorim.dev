@@ -16,7 +16,7 @@ exports[`Footer should render correctly 1`] = `
         >
           <a
             aria-label="Send an email to Ruben"
-            class="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
+            class="block text-4xl md:text-5xl transition-transform hover:scale-110 focus:scale-110"
             href="mailto:me@rubenamorim.dev?body=Hey%20%F0%9F%91%8B%0D%0A"
             rel="nofollow noopener noreferrer"
             target="_blank"
@@ -39,7 +39,7 @@ exports[`Footer should render correctly 1`] = `
         >
           <a
             aria-label="Open Ruben's LinkedIn profile"
-            class="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
+            class="block text-4xl md:text-5xl transition-transform hover:scale-110 focus:scale-110"
             href="https://www.linkedin.com/in/rubenamorim/"
             rel="nofollow noopener noreferrer"
             target="_blank"
@@ -62,7 +62,7 @@ exports[`Footer should render correctly 1`] = `
         >
           <a
             aria-label="Open Ruben's Twitter profile"
-            class="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
+            class="block text-4xl md:text-5xl transition-transform hover:scale-110 focus:scale-110"
             href="https://twitter.com/rubentamorim"
             rel="nofollow noopener noreferrer"
             target="_blank"
@@ -85,7 +85,7 @@ exports[`Footer should render correctly 1`] = `
         >
           <a
             aria-label="Open Ruben's Github profile"
-            class="block text-4xl md:text-5xl transform transition-transform hover:scale-110 focus:scale-110"
+            class="block text-4xl md:text-5xl transition-transform hover:scale-110 focus:scale-110"
             href="https://github.com/rubenamorim"
             rel="nofollow noopener noreferrer"
             target="_blank"
