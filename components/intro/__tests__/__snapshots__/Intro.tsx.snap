@@ -38,19 +38,13 @@ exports[`Intro should render correctly 1`] = `
        
       <a
         class="hover:text-yellow focus:text-yellow transition-colors"
-        href="https://mindera.com/"
+        href="https://www.plex.tv/"
         rel="nofollow noopener noreferrer"
         target="_blank"
       >
-        Mindera
-         
-        <span
-          aria-label="Mindera's yellow heart"
-          role="img"
-        >
-          💛
-        </span>
+        Plex
       </a>
+      .
     </p>
   </div>
 </div>

@@ -28,7 +28,7 @@ module.exports = {
             white: '#fff',
             blue: '#21243d',
             porto: '#0f2f7f',
-            yellow: '#ffd100',
+            yellow: '#e5a00d',
             red: '#f00',
             transparent: 'transparent',
         },

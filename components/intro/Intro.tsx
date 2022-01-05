@@ -33,14 +33,12 @@ const Intro: React.FC<PropTypes> = ({ className }) => {
                 child and as a child I constantly try to learn new things and
                 improve myself every day. Currently, I’m working for{' '}
                 <ExternalLink
-                    href="https://mindera.com/"
+                    href="https://www.plex.tv/"
                     className="hover:text-yellow focus:text-yellow transition-colors"
                 >
-                    Mindera{' '}
-                    <span role="img" aria-label="Mindera's yellow heart">
-                        💛
-                    </span>
+                    Plex
                 </ExternalLink>
+                .
             </p>
         </div>
     );
