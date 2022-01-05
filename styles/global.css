@@ -22,7 +22,7 @@
     }
 
     .button {
-        @apply p-4 md:p-5 text-2xl md:text-3xl font-semibold md:font-medium text-white bg-blue rounded-xl transform transition-transform hover:scale-105;
+        @apply p-4 md:p-5 text-2xl md:text-3xl font-semibold md:font-medium text-white bg-blue rounded-xl transition-transform hover:scale-105;
     }
 
     .text {
@@ -30,7 +30,7 @@
     }
 
     .avatar {
-        @apply filter drop-shadow-xl md:drop-shadow-2xl transform transition-transform active:scale-110 select-none drag-none;
+        @apply drop-shadow-xl md:drop-shadow-2xl transition-transform active:scale-110 select-none drag-none;
     }
 
     .soon {
