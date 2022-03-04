@@ -2889,6 +2889,11 @@ css-blank-pseudo@^3.0.3:
   dependencies:
     postcss-selector-parser "^6.0.9"
 
+css-functions-list@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.0.1.tgz#1460df7fb584d1692c30b105151dbb988c8094f9"
+  integrity sha512-PriDuifDt4u4rkDgnqRCLnjfMatufLmWNfQnGCq34xZwpY3oabwhB9SqRBmuvWUgndbemCFlKqg+nO7C2q0SBw==
+
 css-has-pseudo@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/css-has-pseudo/-/css-has-pseudo-3.0.4.tgz#57f6be91ca242d5c9020ee3e51bbb5b89fc7af73"
@@ -7424,7 +7429,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13, postcss@^7.0.14, postcss@^7.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.3.11, postcss@^8.4.5, postcss@^8.4.6, postcss@^8.4.7:
+postcss@^8.3.11, postcss@^8.4.6, postcss@^8.4.7:
   version "8.4.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.7.tgz#f99862069ec4541de386bf57f5660a6c7a0875a8"
   integrity sha512-L9Ye3r6hkkCeOETQX6iOaWZgjp3LL6Lpqm6EtgbKrgqGGteRMNb9vzBfRL96YOSu8o7x3MfIH9Mo5cPJFGrW6A==
@@ -8143,10 +8148,10 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
-  integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
+signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
+  integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 simple-concat@^1.0.0:
   version "1.0.1"
@@ -8622,14 +8627,15 @@ stylelint-order@^5.0.0:
     postcss "^8.3.11"
     postcss-sorting "^7.0.1"
 
-stylelint@^14.3.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.3.0.tgz#26b62730da7b3dc320021fc469d80048d7b77ebe"
-  integrity sha512-PZXSwtJe4f4qBPWBwAbHL0M0Qjrv8iHN+cLpUNsffaVMS3YzpDDRI73+2lsqLAYfQEzxRwpll6BDKImREbpHWA==
+stylelint@^14.5.3:
+  version "14.5.3"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.5.3.tgz#103b6670128ba3dea69fe3a1a07c4a5d3e0e3450"
+  integrity sha512-omHETL+kGHR+fCXFK1SkZD/A+emCP9esggAdWEl8GPjTNeyRYj+H6uetRDcU+7E451zwWiUYGVAX+lApsAZgsQ==
   dependencies:
     balanced-match "^2.0.0"
     colord "^2.9.2"
     cosmiconfig "^7.0.1"
+    css-functions-list "^3.0.1"
     debug "^4.3.3"
     execall "^2.0.0"
     fast-glob "^3.2.11"
@@ -8651,7 +8657,7 @@ stylelint@^14.3.0:
     normalize-path "^3.0.0"
     normalize-selector "^0.2.0"
     picocolors "^1.0.0"
-    postcss "^8.4.5"
+    postcss "^8.4.6"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
@@ -8666,7 +8672,7 @@ stylelint@^14.3.0:
     svg-tags "^1.0.0"
     table "^6.8.0"
     v8-compile-cache "^2.3.0"
-    write-file-atomic "^4.0.0"
+    write-file-atomic "^4.0.1"
 
 stylelint@^9.10.1:
   version "9.10.1"
@@ -9113,11 +9119,6 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typedarray-to-buffer@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-4.0.0.tgz#cdd2933c61dd3f5f02eda5d012d441f95bfeb50a"
-  integrity sha512-6dOYeZfS3O9RtRD1caom0sMxgK59b27+IwoNy8RDPsmslSGOyU+mpTamlaIW7aNKi90ZQZ9DFaZL3YRoiSCULQ==
-
 typescript@^3.2.1:
   version "3.9.9"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.9.tgz#e69905c54bc0681d0518bd4d587cc6f2d0b1a674"
@@ -9540,15 +9541,13 @@ write-file-atomic@^3.0.0:
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
 
-write-file-atomic@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-4.0.0.tgz#0eff5dc687d3e22535ca3fca8558124645a4b053"
-  integrity sha512-JhcWoKffJNF7ivO9yflBhc7tn3wKnokMUfWpBriM9yCXj4ePQnRPcWglBkkg1AHC8nsW/EfxwwhqsLtOy59djA==
+write-file-atomic@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-4.0.1.tgz#9faa33a964c1c85ff6f849b80b42a88c2c537c8f"
+  integrity sha512-nSKUxgAbyioruk6hU87QzVbY279oYT6uiwgDoujth2ju4mJ+TZau7SQBhtbTmUyuNYTuXnSyRn66FV0+eCgcrQ==
   dependencies:
     imurmurhash "^0.1.4"
-    is-typedarray "^1.0.0"
-    signal-exit "^3.0.2"
-    typedarray-to-buffer "^4.0.0"
+    signal-exit "^3.0.7"
 
 write@1.0.3:
   version "1.0.3"
