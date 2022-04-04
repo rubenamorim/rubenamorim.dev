@@ -2,8 +2,15 @@
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/en/configuration.html
  */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const nextJest = require('next/jest');
 
-module.exports = {
+const createJestConfig = nextJest({
+    // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+    dir: './',
+});
+
+const customJestConfig = {
     // All imported modules in your tests should be mocked automatically
     // automock: false,
 
@@ -193,3 +200,5 @@ module.exports = {
     // Whether to use watchman for file crawling
     // watchman: true,
 };
+
+module.exports = createJestConfig(customJestConfig);
