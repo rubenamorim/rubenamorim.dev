@@ -21,6 +21,10 @@ const BREAKPOINTS = {
 
 type ViewportContextTypes = Record<keyof typeof BREAKPOINTS, boolean>;
 
+interface PropTypes {
+    children?: React.ReactNode;
+}
+
 const matchers: {
     name: keyof typeof BREAKPOINTS;
     query: MediaQueryList | undefined;
@@ -32,7 +36,7 @@ const matchers: {
 
 export const ViewportContext = createContext<Partial<ViewportContextTypes>>({});
 
-export const ViewportProvider: React.FC = (props) => {
+export const ViewportProvider: React.FC<PropTypes> = (props) => {
     const isHydrationRender = useHydrationRender();
 
     const [breakpoints, setBreakpoints] = useState({});
