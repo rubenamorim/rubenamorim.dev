@@ -62,7 +62,7 @@
         "postcss": "^8.4.13",
         "postcss-preset-env": "^7.4.3",
         "prettier": "^2.6.1",
-        "stylelint": "^14.6.1",
+        "stylelint": "^14.8.2",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended": "^7.0.0",
         "stylelint-order": "^5.0.0",
