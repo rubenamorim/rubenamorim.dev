@@ -6,7 +6,7 @@ import Avatar from '../Avatar';
 import { HydrationRenderProvider } from 'hooks/useHydrationRender';
 import { ViewportProvider } from 'hooks/useViewport';
 
-const Wrapper: React.FC = ({ children }) => {
+const Wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <HydrationRenderProvider>
             <ViewportProvider>{children}</ViewportProvider>

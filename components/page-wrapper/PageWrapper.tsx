@@ -2,6 +2,7 @@ import cx from 'classnames';
 
 interface PropTypes {
     className?: string;
+    children: React.ReactNode;
 }
 
 const PageWrapper: React.FC<PropTypes> = ({ children, className }) => {
