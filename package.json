@@ -29,7 +29,7 @@
         "react-dom": "^18.0.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^16.2.3",
+        "@commitlint/cli": "^16.2.4",
         "@commitlint/config-conventional": "^16.2.4",
         "@netlify/plugin-nextjs": "^4.7.0",
         "@testing-library/dom": "^8.12.0",
