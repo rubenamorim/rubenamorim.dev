@@ -1,8 +1,12 @@
-import { createContext, useState, useEffect, useContext } from 'react';
+import React, { createContext, useState, useEffect, useContext } from 'react';
+
+interface PropTypes {
+    children?: React.ReactNode;
+}
 
 export const HydrationRenderContext = createContext<boolean>(true);
 
-export const HydrationRenderProvider: React.FC = (props) => {
+export const HydrationRenderProvider: React.FC<PropTypes> = (props) => {
     const [isHydrationRender, setIsHydrationRender] = useState(true);
 
     useEffect(() => {
