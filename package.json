@@ -20,7 +20,7 @@
         "prepare": "husky install"
     },
     "dependencies": {
-        "@next/bundle-analyzer": "^12.1.6",
+        "@next/bundle-analyzer": "^12.2.0",
         "classnames": "^2.3.1",
         "next": "^12.2.0",
         "next-compose-plugins": "^2.2.1",
