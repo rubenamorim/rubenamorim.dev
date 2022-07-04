@@ -54,7 +54,7 @@
         "eslint-plugin-testing-library": "^5.5.1",
         "husky": "^8.0.1",
         "jest": "^28.1.0",
-        "jest-environment-jsdom": "^28.1.0",
+        "jest-environment-jsdom": "^28.1.2",
         "lint-staged": "^13.0.0",
         "match-media-mock": "^0.1.1",
         "netlify-plugin-cache-nextjs": "^1.6.1",
