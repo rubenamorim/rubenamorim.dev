@@ -29,9 +29,9 @@ const Intro: React.FC<PropTypes> = ({ className }) => {
                     Porto, Portugal
                 </ExternalLink>{' '}
                 to the world, I’m passionate about building things for the web.
-                I love my profession, which I always wanted to be since I was a
-                child and as a child I constantly try to learn new things and
-                improve myself every day. Currently, I’m working for{' '}
+                I love my job, which I always wanted to be since I was a child
+                and as a child I constantly try to learn new things and improve
+                myself every day. Currently, I’m working for{' '}
                 <ExternalLink
                     href="https://www.plex.tv/"
                     className="hover:text-yellow focus:text-yellow transition-colors"
