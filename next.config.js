@@ -7,6 +7,9 @@ const isProduction = process.env.NODE_ENV === 'production';
 /** @type {import('next').NextConfig} */
 const config = {
     reactStrictMode: true,
+    experimental: {
+        runtime: 'experimental-edge',
+    },
     async headers() {
         if (!isProduction) {
             return [];

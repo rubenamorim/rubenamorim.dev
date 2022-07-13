@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Script from 'next/script';
 import { DefaultSeo } from 'next-seo';
 import type { AppProps } from 'next/app';
 
@@ -16,15 +16,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <DefaultSeo {...seo} />
-            <Head>
-                <script
-                    defer
-                    src="https://static.cloudflareinsights.com/beacon.min.js"
-                    data-cf-beacon={JSON.stringify({
-                        token: process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN,
-                    })}
-                ></script>
-            </Head>
+            <Script
+                defer
+                src="https://static.cloudflareinsights.com/beacon.min.js"
+                data-cf-beacon={JSON.stringify({
+                    token: process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN,
+                })}
+            />
             <HydrationRenderProvider>
                 <ViewportProvider>
                     <Header />
