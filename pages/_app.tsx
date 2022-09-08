@@ -12,17 +12,20 @@ import seo from 'data/seo';
 
 import 'styles/global.css';
 
+const analyticsWebsiteId = process.env.NEXT_PUBLIC_ANALYTICS_WEBSITE_ID;
+
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <DefaultSeo {...seo} />
-            <Script
-                defer
-                src="https://static.cloudflareinsights.com/beacon.min.js"
-                data-cf-beacon={JSON.stringify({
-                    token: process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN,
-                })}
-            />
+            {analyticsWebsiteId && (
+                <Script
+                    async
+                    defer
+                    src="https://analytics.rubenamorim.dev/umami.js"
+                    data-website-id={analyticsWebsiteId}
+                />
+            )}
             <HydrationRenderProvider>
                 <ViewportProvider>
                     <Header />
