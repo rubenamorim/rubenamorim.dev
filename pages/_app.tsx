@@ -22,8 +22,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 <Script
                     async
                     defer
-                    src="https://analytics.rubenamorim.dev/umami.js"
                     data-website-id={analyticsWebsiteId}
+                    src="/stats/script.js"
                 />
             )}
             <HydrationRenderProvider>
