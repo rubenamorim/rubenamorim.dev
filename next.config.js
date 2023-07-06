@@ -21,7 +21,7 @@ const config = {
                 headers: [
                     {
                         key: 'Content-Security-Policy',
-                        value: "default-src 'none'; img-src 'self'; style-src 'self'; style-src-elem 'self' 'sha256-TyNUDnhSZIj6eZZqS6qqchxBN4+zTRUU+TkPeIxxT1I='; manifest-src 'self'; script-src 'self' 'unsafe-inline' analytics.rubenamorim.dev ajax.cloudflare.com; connect-src 'self' analytics.rubenamorim.dev; prefetch-src 'self';",
+                        value: "default-src 'none'; img-src 'self'; style-src 'self'; style-src-elem 'self' 'sha256-TyNUDnhSZIj6eZZqS6qqchxBN4+zTRUU+TkPeIxxT1I='; manifest-src 'self'; script-src 'self' 'unsafe-inline' analytics.rubenamorim.dev ajax.cloudflare.com; connect-src 'self' analytics.rubenamorim.dev;",
                     },
                     {
                         key: 'X-Frame-Options',
