@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import { DefaultSeo } from 'next-seo';
 import type { AppProps } from 'next/app';
 
@@ -12,20 +11,10 @@ import seo from 'data/seo';
 
 import 'styles/global.css';
 
-const analyticsWebsiteId = process.env.NEXT_PUBLIC_ANALYTICS_WEBSITE_ID;
-
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <DefaultSeo {...seo} />
-            {analyticsWebsiteId && (
-                <Script
-                    async
-                    defer
-                    data-website-id={analyticsWebsiteId}
-                    src="/stats/script.js"
-                />
-            )}
             <HydrationRenderProvider>
                 <ViewportProvider>
                     <Header />
